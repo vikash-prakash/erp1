@@ -1,0 +1,10 @@
+package in.vikash.dao;
+
+import in.vikash.dto.Enrolled_course_with_department;
+
+public interface IEnrolled_course_with_departmentDao {
+	public String addEnrolled_course_with_department(Enrolled_course_with_department enrolled_course_with_department);
+	public String deleteEnrolled_course_with_department(Integer id);
+	public String updateEnrolled_course_with_department(Enrolled_course_with_department enrolled_course_with_department);
+	public Enrolled_course_with_department selectEnrolled_course_with_department();
+}

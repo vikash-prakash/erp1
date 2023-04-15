@@ -1,0 +1,10 @@
+package in.vikash.dao;
+
+import in.vikash.dto.Assign_attendance_sub_to_student;
+
+public interface IAssign_attendance_sub_to_studentDao {
+	public String addAssign_attendance_sub_to_student(Assign_attendance_sub_to_student assign_attendance_sub_to_student);
+	public String deleteAssign_attendance_sub_to_student(Integer id);
+	public String updateAssign_attendance_sub_to_student(Assign_attendance_sub_to_student ssign_attendance_sub_to_student);
+	public Assign_attendance_sub_to_student selectAssign_attendance_sub_to_student();
+}
